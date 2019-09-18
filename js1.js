@@ -8,9 +8,7 @@ $(document).ready(() => {
       if (data) {
           let start = $(".card").length;
           let end = start + 4;
-
           data.slice(start, end ).forEach(card => {
-
             let tempalate = 
             `
               <div class="col-md-3 col-xs-6 card">
@@ -25,8 +23,6 @@ $(document).ready(() => {
             $(".load-items").append(tempalate);
           })
       }
-
-
     })
   })
 })
