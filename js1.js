@@ -24,8 +24,6 @@ $(document).ready(() => {
             `;
             $(".load-items").append(tempalate);
           })
-
-
       }
 
 
